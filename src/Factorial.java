@@ -21,16 +21,8 @@ public class Factorial {
         System.out.println(userNumber);
         if (userNumber <= 1){
             return 1;
+            //need this b/c the computer can't handle 0 or 1 without giving some crazy long errors
         }
           return userNumber * createFactorial(userNumber-1);
     }
-
-//    public int recursionTest(int count, int max) { //our class example
-//        System.out.print(count + " ");
-//        if (count >= max) {
-//            return count;
-//        }
-//        return recursionTest(count+1, max); //calling itself with an additional value
-//    }
-
 }
