@@ -1,2 +1,2 @@
 # bubbles
-Bubble sorter
+Bubble sorter contains different sorting and number methods. 
