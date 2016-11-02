@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * Created by bearden-tellez on 9/27/16.
  */
 public class SortingRunnerTest {
-    SelectionSorter sortingRunner = new SelectionSorter();
+    TIYSorting sortingRunner = new BubbleSorter();
 //    BubbleSorter sortingRunner = new BubbleSorter();
 
     @Before
@@ -110,5 +110,8 @@ public class SortingRunnerTest {
         assertDupElementOrder(orderedArray);
 
     }
+    @Test
+    public void fibArray() throws Exception {
 
+    }
 }
