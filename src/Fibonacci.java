@@ -14,7 +14,7 @@ public class Fibonacci {
         Fibonacci myFib = new Fibonacci();
 //        long fibNum = myFib.getFib(2);
 //
-        long fibNum = myFib.getFibonacciEff(100);
+        long fibNum = myFib.getFibonacciEff(10);
         System.out.println(fibNum);
 
     }
